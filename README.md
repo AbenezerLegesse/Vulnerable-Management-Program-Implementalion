@@ -94,6 +94,13 @@ Based on the assessment, the following remediation priorities were established:
 
 This prioritization framework helps ensure that **high-risk vulnerabilities are addressed efficiently while maintaining system stability and operational continuity**.
 
+### Step 7: Distributing Remediation Tasks to Server Teams
+
+In this phase, the **server team was provided with the vulnerability scan reports and remediation scripts** required to address the identified security issues. The remediation package included scripts designed to resolve specific vulnerabilities discovered during the initial assessment.
+
+To support efficient remediation, clear instructions and documentation were shared with the team. The scripts were designed to be **tested in a controlled environment before deployment**, ensuring compatibility with the organization’s systems and minimizing operational risk.
+
+<img width="1091" height="513" alt="Screenshot 2026-03-04 at 7 44 19 PM" src="https://github.com/user-attachments/assets/531aff72-0d53-4234-873c-6ae90d401f78" />
 
 
 
