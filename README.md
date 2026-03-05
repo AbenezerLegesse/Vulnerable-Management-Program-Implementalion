@@ -74,6 +74,26 @@ In this phase, an insecure Windows Server is provisioned to simulate the server 
 <img width="953" height="1245" alt="Screenshot 2026-03-04 at 7 35 37 PM" src="https://github.com/user-attachments/assets/6f62b281-31ea-4f07-8839-d88ad7e78a81" />
 [First Scan][scan 1.pdf](https://github.com/user-attachments/files/25754629/scan.1.pdf)
 
+### Step 6: Vulnerability Assessment and Prioritization
+
+In this phase, the identified vulnerabilities were **reviewed and analyzed to determine remediation priorities**. The prioritization strategy considered factors such as **risk severity, potential impact on the organization, and ease of remediation**. This approach ensures that the most critical and easily addressable issues are resolved first while maintaining operational efficiency.
+
+Based on the assessment, the following remediation priorities were established:
+
+1. **Third-Party Software Removal (Wireshark)**  
+   Remove unauthorized or unnecessary installations of Wireshark from systems where it is not required. Limiting such tools reduces the risk of misuse and unnecessary exposure.
+
+2. **Windows OS Secure Configuration – Protocols & Ciphers**  
+   Harden the operating system by disabling weak or outdated protocols and cryptographic ciphers to improve overall system security.
+
+3. **Windows OS Secure Configuration – Guest Account Group Membership**  
+   Review and restrict guest account privileges to ensure they are not part of sensitive or administrative groups.
+
+4. **Windows OS Updates**  
+   Apply the latest security patches and updates to address known vulnerabilities within the Windows operating system.
+
+This prioritization framework helps ensure that **high-risk vulnerabilities are addressed efficiently while maintaining system stability and operational continuity**.
+
 
 
 
