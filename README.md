@@ -102,6 +102,35 @@ To support efficient remediation, clear instructions and documentation were shar
 
 <img width="1091" height="513" alt="Screenshot 2026-03-04 at 7 44 19 PM" src="https://github.com/user-attachments/assets/531aff72-0d53-4234-873c-6ae90d401f78" />
 
+### Step 8: Mock Stakeholder Meeting – Post-Initial Discovery Scan (Server Team)
+
+In this phase, a **mock meeting was held with the server team** to review the results of the initial vulnerability discovery scan. The goal of the meeting was to analyze the findings, confirm the identified risks, and plan the next remediation steps.
+
+During the review, several key security issues were identified, including:
+
+- **Outdated or unsupported software**
+- **Insecure or misconfigured user accounts**
+- **Deprecated network protocols and cryptographic configurations**
+
+The security and server teams discussed the potential impact of these vulnerabilities and confirmed the remediation approach. Based on this discussion, **remediation packages and configuration changes were prepared for submission to the Change Control Board (CAB)** for formal approval before deployment.
+
+
+
+---
+
+### Step 9: Mock CAB Meeting – Implementing Remediations
+
+Following the vulnerability review, a **mock Change Control Board (CAB) meeting** was conducted to evaluate and approve the proposed remediation plan.
+
+During the meeting, the CAB reviewed the technical changes required to **remove insecure protocols and weak cipher suites from the Windows operating systems**. The security team presented the remediation scripts, potential system impact, and testing results.
+
+To ensure safe deployment, the implementation plan included:
+
+- A **rollback script** to quickly restore previous configurations if issues occur  
+- A **tiered deployment strategy**, beginning with a limited set of systems before expanding across the environment  
+- **Monitoring and validation steps** to confirm that the changes do not disrupt production systems
+
+After reviewing the proposal, the CAB **approved the remediation plan**, allowing the security and infrastructure teams to proceed with controlled implementation.
 
 
 
